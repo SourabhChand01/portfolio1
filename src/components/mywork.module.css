@@ -1,0 +1,27 @@
+.mywork{
+    height: 60vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.mywork-title{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.works{
+    height:75%;
+    width:80%;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+}
+.work{
+    height:80%;
+    width:30%;
+    background-color: blue;
+}

@@ -1,0 +1,58 @@
+.subsection1{
+    height:60vh;
+    width:100vw;
+    margin-top: 20px;
+    padding: 20px 10px;
+}
+
+.ilike{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.likebox{
+    height:100%;
+    width:100%;
+    display: flex;
+    display: flex;
+    justify-content: center ;
+    padding: 0;
+    
+}
+.hobbies{
+    height:70%;
+    width:25%;
+    background-color: rgba(69, 68, 68, 0.611);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border:1px solid black; */
+    border-radius: 10px;
+    margin: 10px 40px 0 0 ;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+}
+.hobbies:hover{
+    transform: scale(1.1);
+    background-color:  rgba(108, 107, 107, 0.826);
+    cursor:pointer;
+}
+.image{
+    height:40%;
+    width:30%;
+    /* background-color: green; */
+    border-radius: 60%;
+}
+.image img{
+    height:90%;
+    width:100%;
+    object-fit: contain;
+}
+.hobbies p{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
